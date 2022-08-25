@@ -1,0 +1,83 @@
+*{padding:0; margin:0; box-sizing: border-box;}
+
+body {
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          padding: 0px 15px;
+
+}
+
+.box_login {
+         width: 500px;
+         height: 500px;
+         background: rgb(13, 6, 50);
+         border:0;
+         border-radius: 10rem 10rem;
+     
+}
+
+.box_login .front_cover {
+         height: 200px;
+         background: url(./img/fre.png.jpg); 
+         background-size: 100% 100%;
+         background-repeat: no-repeat;
+}
+
+h1 {
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        text-align: center;
+        margin: 15px 0px 20px 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form input {
+        margin: 5px 24px ;
+        width: calc( 50% - 50px);
+        padding: 10px 15px;
+        border: 0;
+        border-radius: 10px;
+        margin-bottom: 15px;
+       /*text-align: center;*/
+       color: rgb(255, 0, 0); /* COR DO TEXTO DE DENTRO DO INPUT */
+       background-color: #ccc;
+}
+
+form .btn-login {
+       margin: 10px 150px;
+       width: calc( 50% - 40px);
+       background: rgb(0, 0, 0);
+       color: #FFF;
+       padding: 10px 15px;
+       border: 0;
+       border-radius: 23px;
+       margin-bottom: 15px;
+}
+
+form .btn-login:hover
+{
+        background: #ccc;
+        color: black;
+}
+
+.msg_error
+{
+  color: rgb(255, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width:480px) {
+
+.box_login .front_cover {
+ height: 230px;
+       background: url(./img/fre.png.jpg);
+               background-size: 100% 100%;
+                     background-repeat: no-repeat;
+        }
+
+}
+
